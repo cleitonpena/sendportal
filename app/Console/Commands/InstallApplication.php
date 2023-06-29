@@ -161,7 +161,7 @@ class InstallApplication extends BaseCommand
 
             'DB_PORT' => $this->ask(
                 'Port',
-                config("database.connections.{$connection}.port", '3306')
+                config("database.connections.{$connection}.port", '6306')
             ),
 
             'DB_DATABASE' => $this->ask(
