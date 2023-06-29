@@ -4,7 +4,7 @@
 /storage/*.key
 /storage/laracatch
 /vendor
-.env
+# .env
 .env.backup
 .env.testing
 .phpunit.result.cache
